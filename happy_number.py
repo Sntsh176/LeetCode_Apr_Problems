@@ -15,6 +15,8 @@ Explanation:
 12 + 02 + 02 = 1"""
 
 
+
+
 class Solution:
     def isHappy(self, n: int) -> bool:
     
@@ -43,7 +45,7 @@ class Solution:
             # will check each time if it is 100 or total sum is 1
             if sum == 1:
                 return True
-            #checking if the same is re-appeared or not
+            #checking if the same is re-appeared , then break the loop or simple return False
             elif sum in num_lst:
                 return False
             
