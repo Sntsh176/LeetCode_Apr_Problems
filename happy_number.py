@@ -20,12 +20,12 @@ Explanation:
 class Solution:
     def isHappy(self, n: int) -> bool:
     
-    """Function to find happy number
-    Param:
-    n : Integer values that needs to be check if Happy number or not
-    Return :
-    return type will be bool
-    """
+        """Function to find happy number
+        Param:
+        n : Integer values that needs to be check if Happy number or not
+        Return :
+        return type will be bool
+        """
     
         # Taking default the number is not happy number
         output = False

@@ -13,12 +13,12 @@ If you have figured out the O(n) solution, try coding another solution using the
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
 	
-	"""Function to find happy number
-    Param:
-    nums : List format input , numbers to be checked
-    Return :
-    return type will be int
-    """
+        """Function to find happy number
+        Param:
+        nums : List format input , numbers to be checked
+        Return :
+        return type will be int
+        """
     
         # setting the 1st element as maximum value as we have to find the maximum 
         max = nums[0]

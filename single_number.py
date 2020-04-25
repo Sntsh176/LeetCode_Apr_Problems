@@ -20,12 +20,12 @@ Output: 4"""
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
     
-    """Function to get the non duplicate item
-    Param:
-    nums : List format input , numbers to be checked
-    Return :
-    return type will be int
-    """
+        """Function to get the non duplicate item
+        Param:
+        nums : List format input , numbers to be checked
+        Return :
+        return type will be int
+        """
     
         # Here we are taking Dictionary which will havevalues as key
         dict = {}
