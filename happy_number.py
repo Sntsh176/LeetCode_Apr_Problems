@@ -12,7 +12,8 @@ Explanation:
 12 + 92 = 82
 82 + 22 = 68
 62 + 82 = 100
-12 + 02 + 02 = 1"""
+12 + 02 + 02 = 1
+"""
 
 
 
@@ -22,12 +23,12 @@ class Solution:
     
         """Function to find happy number
         Param:
-        n : Integer values that needs to be check if Happy number or not
+        n : Integer values that needs to be check if Happy number or not.
         Return :
         return type will be bool
         """
     
-        # Taking default the number is not happy number
+        # Taking default the number is not a happy number
         output = False
         
         # TO have the list of number which is used for checking Happy no.
@@ -45,7 +46,7 @@ class Solution:
             # will check each time if it is 100 or total sum is 1
             if sum == 1:
                 return True
-            #checking if the same is re-appeared , then break the loop or simple return False
+            #checking if the same is re-appeared , then break the loop or simple return False.
             elif sum in num_lst:
                 return False
             
