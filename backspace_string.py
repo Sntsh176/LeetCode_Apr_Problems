@@ -53,6 +53,7 @@ class Solution:
             # Checking if the first item is # or not , in this case no operation is needed simply remove it
             if T.index('#') != 0:
                 T.pop(T.index( '#' ) - 1)
+                
             T.remove('#')
         
         # Equality check for the input string after operations
