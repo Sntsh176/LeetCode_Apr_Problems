@@ -23,8 +23,10 @@ The string size will be in the range [1, 100].
 
 class Solution:
     def checkValidString(self, s: str) -> bool:
+    
         stack_left = []
         stack_star = []
+        
         for i in range(len(s)):
             if s[i] == '(':
                 stack_left.append(i)
