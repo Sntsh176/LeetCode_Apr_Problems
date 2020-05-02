@@ -22,7 +22,6 @@ class FirstUnique:
         
 
     def add(self, value: int) -> None:
-        
         if value in self.dict:
             self.dict[value] += 1
             unique_val = self.dict['one']

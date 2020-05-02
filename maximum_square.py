@@ -25,6 +25,7 @@ class Solution:
         
         # setting wor and cols
         rows = len(matrix)
+        
         # will check if matrix is empty of not
         if not rows:
             return 0
